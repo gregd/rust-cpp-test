@@ -1,0 +1,11 @@
+[package]
+name = "rust-cpp-test"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+cpp = { version = "0.5" }
+
+[build-dependencies]
+cpp_build = "0.5"
